@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(images/2.png);
+    background-size: cover;
+    
+    
+}
+
+.container{
+    color: #14274E;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+h1{
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 5rem;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+
+    position: absolute;
+    bottom: 16%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    /* background: radial-gradient(#FCF8F5 20%,#FCF8F5 40%); */
+    background-image: url('images/2.png');
+}
+
+.heading{
+    position: relative;
+    text-align: center;
+    /* margin-bottom: 7%; */
+}
+
+.upper{
+    width: 100%;
+    /* height: 700px; */
+}
+
+
+
+.date{
+    width: 96%;
+    margin: 2% 0 10%;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.date p{
+    text-align: center;
+}
+
+.day{
+    font-size: 5rem;
+    /* font-weight: 400; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line{
+    padding-left: 7%;
+    border-left: 1px solid black;
+    padding-right: 7%;
+    border-right: 1px solid black;
+}
+
+.timer-1{
+    width: 96%;
+    padding: 2% 2%;
+    color: #F1F6F9;
+    font-weight: 500;
+    /* background: linear-gradient(-45DEG,black,white,white,black); */
+    /* background-image: url('images/7.png'); */
+    background-color: #1a2d55;
+    box-shadow: -5px 5px 10px black;
+    background-size: cover;
+    border-radius: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.timer-1 div{
+    width: 25%;
+    text-align: center;
+}
+
+.time{
+    font-size: 2.5rem;
+}
+
+.timer-2{
+    width: 100%;
+    padding: 3%;
+    border-radius: 100px;
+    background-color: #14274E;
+}
+
+.content{
+    padding: 1% 7% 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    /* background-color: #fcf8f5; */
+    /* opacity: 0.7; */
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hat{
+    width: 15%;
+    display: none;
+}
+
+.right{
+    width: 20%;
+}
+
+.grad{
+    width: 100%;
+}
+
+.chief-guest h2{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.chief-guest{
+    width: 94%;
+    padding: 3%;
+    background-color: #9BA4B4;
+    /* border: 10px solid black; */
+    /* box-shadow: -20px -20px 20px #394867; */
+    box-shadow: 4px 4px 32px #394867;
+    border-radius: 30px;
+
+}
+
+.guest-pic{
+    width: 20%;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.guest{
+    width: 40%;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.guest h3{
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.guest ul{
+    font-size: 1.2em;
+}
+
+.guest ul li{
+    list-style-type: square;
+}
+.footer{
+    height: 150px;
+    background-color: #14274E;
+}
+
+.outer{
+    margin: 5% auto 3%;
+    width: 80%;
+    padding: 3%;
+    background-color: #9BA4B4;
+    border-radius: 40px;
+}
+
+
+@media screen and (max-width: 1407px){
+    h1{
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1270px){
+    h1{
+        font-size: 3.8rem;
+    }
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 2.2rem;
+        width: 80%;
+    }
+
+    .date{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .day{
+        font-size: 3.5rem;
+    }
+
+    .time{
+        font-size: 2rem;
+    }
+    .timer-2{
+        font-size: 0.8rem;
+    }
+
+
+
+    .hat{
+        /* display: block; */
+    }
+
+    .left{
+        width: 90%;
+        height: 60vh;
+        background-image: url(images/opacity.png);
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .chief-guest h2{
+        font-size: 2.5rem;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .guest-pic{
+        width: 30%;
+        margin-bottom: 4%;
+    }
+
+    .guest{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .guest h3{
+        font-size: 1.5rem;
+    }
+
+}
