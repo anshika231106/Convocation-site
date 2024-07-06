@@ -216,7 +216,7 @@ h1{
 }
 @media screen and (max-width: 600px){
     h1{
-        font-size: 2rem;
+        font-size: 1.9rem;
         width: 80%;
     }
 
@@ -236,7 +236,7 @@ h1{
         font-size: 0.8rem;
     }
 
-
+        
 
     .hat{
         /* display: block; */
@@ -246,7 +246,9 @@ h1{
         width: 90%;
         height: 60vh;
         background-image: url(images/opacity.png);
+        background-repeat: no-repeat;
         background-size: cover;
+        background-position: center center;
         justify-content: center;
     }
 
@@ -275,4 +277,11 @@ h1{
         font-size: 1.5rem;
     }
 
+}
+
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 1.5rem;
+    }
 }
